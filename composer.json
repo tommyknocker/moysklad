@@ -1,7 +1,7 @@
 {
-  "name": "cdekmarketteam/moysklad",
-  "description": "PHP SDK Moysklad API 1.2",
-  "homepage": "https://github.com/cdekmarketteam/moysklad",
+  "name": "tommyknocker/moysklad",
+  "description": "PHP SDK Moysklad API 1.2 (Forked from cdekmarketteam/moysklad)",
+  "homepage": "https://github.com/tommyknocker/moysklad",
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -20,7 +20,7 @@
     "php": ">=7.3",
     "guzzlehttp/guzzle": "^7.0",
     "ext-json": "*",
-    "jms/serializer": "^3.10",
+    "jms/serializer": "^1.14",
     "doctrine/annotations": "^1.11",
     "yogarine/doctrine-annotation-autoload": "^0.3.0"
   },

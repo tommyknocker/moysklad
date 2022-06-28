@@ -172,6 +172,12 @@ class CustomerOrder extends MetaEntity
     public $invoicedSum;
 
     /**
+     * @Type("string")
+     * @Generator()
+     */
+    public $shipmentAddress;
+
+    /**
      * @Type("MoySklad\Entity\Project")
      */
     public $project;

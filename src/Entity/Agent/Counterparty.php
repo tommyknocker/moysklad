@@ -29,6 +29,18 @@ class Counterparty extends MetaEntity
      * @Type("string")
      * @Generator()
      */
+    public $phone;
+
+    /**
+     * @Type("string")
+     * @Generator()
+     */
+    public $email;
+
+    /**
+     * @Type("string")
+     * @Generator()
+     */
     public $fax;
 
     /**
@@ -104,6 +116,11 @@ class Counterparty extends MetaEntity
      * @Type("int")
      */
     public $bonusPoints;
+
+    /**
+     * @Type("DateTime<'Y-m-d H:i:s.v'>")
+     */
+    public $created;
 
     /**
      * @Type("array<string>")
